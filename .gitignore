@@ -1,0 +1,24 @@
+# ── Staging ───────────────────────────────────────────────────
+stg/registros_cuarentenados.parquet
+
+# ── Backups ───────────────────────────────────────────────────
+backup/
+
+# ── Gráficos generados por el notebook ───────────────────────
+reports/*.png
+
+# ── Jupyter ───────────────────────────────────────────────────
+.ipynb_checkpoints/
+reports/.ipynb_checkpoints/
+
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# ── macOS ─────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
